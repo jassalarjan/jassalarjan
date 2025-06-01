@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on Digilogous Website link: [https://www.digilogous.rdpschool.edu.in/)] <br>👯 I’m looking to collaborate new web project <br>🤝 I’m looking for help with Data Science<br>🌱 I’m currently learning Three.js<br>💬 Ask me about Full Stack Development<br>⚡ Fun fact I also know marketing
+🔭 I’m currently working on Digilogous Website link: [https://digilogous.rdpschool.edu.in/)] <br>👯 I’m looking to collaborate new web project <br>🤝 I’m looking for help with Data Science<br>🌱 I’m currently learning Three.js<br>💬 Ask me about Full Stack Development<br>⚡ Fun fact I also know marketing
 
 
 # 💻 Tech Stack:
