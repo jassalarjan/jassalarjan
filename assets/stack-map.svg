@@ -1,0 +1,992 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="100%"
+     viewBox="0 0 1664 928"
+     preserveAspectRatio="xMidYMid meet"
+     role="img"
+     aria-labelledby="title desc">
+
+  <title id="title">What do I use? — Technology Stack</title>
+  <desc id="desc">
+    A futuristic isometric technology city showcasing programming languages,
+    frontend, backend, data and AI, cloud, and mobile development.
+  </desc>
+
+  <defs>
+    <!-- Background -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020b1b"/>
+      <stop offset="55%" stop-color="#032447"/>
+      <stop offset="100%" stop-color="#03162c"/>
+    </linearGradient>
+
+    <radialGradient id="blueGlow">
+      <stop offset="0%" stop-color="#007bff" stop-opacity=".28"/>
+      <stop offset="100%" stop-color="#007bff" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="amberGlow">
+      <stop offset="0%" stop-color="#ffad45" stop-opacity=".2"/>
+      <stop offset="100%" stop-color="#ffad45" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Accent gradients -->
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffad45"/>
+      <stop offset="50%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#0789ff"/>
+    </linearGradient>
+
+    <linearGradient id="nameGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="65%" stop-color="#e8f2ff"/>
+      <stop offset="100%" stop-color="#ffb45e"/>
+    </linearGradient>
+
+    <!-- Platform -->
+    <linearGradient id="platformTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a3861"/>
+      <stop offset="55%" stop-color="#06294a"/>
+      <stop offset="100%" stop-color="#03162e"/>
+    </linearGradient>
+
+    <linearGradient id="platformSide" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#07355c"/>
+      <stop offset="100%" stop-color="#020b1b"/>
+    </linearGradient>
+
+    <!-- Technology card gradients -->
+    <linearGradient id="blueCard" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#073e85"/>
+      <stop offset="100%" stop-color="#03162f"/>
+    </linearGradient>
+
+    <linearGradient id="cyanCard" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#064c64"/>
+      <stop offset="100%" stop-color="#03182c"/>
+    </linearGradient>
+
+    <linearGradient id="greenCard" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#075c53"/>
+      <stop offset="100%" stop-color="#031c2c"/>
+    </linearGradient>
+
+    <linearGradient id="purpleCard" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#402080"/>
+      <stop offset="100%" stop-color="#100d32"/>
+    </linearGradient>
+
+    <linearGradient id="amberCard" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#61401a"/>
+      <stop offset="100%" stop-color="#211526"/>
+    </linearGradient>
+
+    <!-- Information cards -->
+    <linearGradient id="infoCard" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#063d70"/>
+      <stop offset="100%" stop-color="#041b39"/>
+    </linearGradient>
+
+    <!-- Grid -->
+    <pattern id="grid"
+             width="50"
+             height="50"
+             patternUnits="userSpaceOnUse">
+      <path d="M50 0H0V50"
+            fill="none"
+            stroke="#1684ce"
+            stroke-opacity=".13"
+            stroke-width="1"/>
+    </pattern>
+
+    <!-- Glow effects -->
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+
+    <filter id="smallGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+
+    <style>
+      .mono {
+        font-family: "SFMono-Regular", Consolas,
+                     "Liberation Mono", monospace;
+      }
+
+      .white { fill: #f5f8ff; }
+      .muted { fill: #9bbbe2; }
+      .cyan { fill: #00e5ff; }
+      .amber { fill: #ffb45e; }
+
+      .panel-title {
+        font-size: 15px;
+        font-weight: 800;
+        letter-spacing: 1.2px;
+      }
+
+      .panel-copy {
+        font-size: 12px;
+        fill: #c0d8f4;
+      }
+
+      .panel {
+        stroke-width: 1.8;
+        stroke-linejoin: round;
+      }
+
+      .circuit {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .footer {
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        fill: #528ac7;
+      }
+    </style>
+  </defs>
+
+  <!-- ================================================== -->
+  <!-- BACKGROUND -->
+  <!-- ================================================== -->
+
+  <rect width="1664" height="928" fill="url(#bg)"/>
+  <rect width="1664" height="928" fill="url(#grid)"/>
+
+  <ellipse cx="230" cy="405" rx="340" ry="290"
+           fill="url(#amberGlow)"/>
+
+  <ellipse cx="1370" cy="365" rx="420" ry="350"
+           fill="url(#blueGlow)"/>
+
+  <ellipse cx="850" cy="640" rx="700" ry="330"
+           fill="url(#blueGlow)" opacity=".6"/>
+
+  <!-- Ambient orbital curves -->
+  <g fill="none" stroke="#087fc3" stroke-width="1.5" opacity=".45">
+    <path d="M1570 0A220 220 0 0 0 1664 180"/>
+    <path d="M0 738A300 300 0 0 1 318 928"/>
+  </g>
+
+  <!-- ================================================== -->
+  <!-- HEADER -->
+  <!-- ================================================== -->
+
+  <g id="profile-header">
+
+    <rect x="60" y="53" width="176" height="10" rx="5"
+          fill="url(#accent)"/>
+
+    <text x="60" y="133"
+          class="mono"
+          font-size="61"
+          font-weight="900"
+          fill="url(#nameGradient)">What do I use? </text>
+
+    <text x="60" y="185"
+          class="mono cyan"
+          font-size="28"
+          font-weight="800"
+          letter-spacing="2">— Technology Stack</text>
+
+    <text x="60" y="222"
+          class="mono muted"
+          font-size="21"
+          font-weight="700">Full-Stack Developer · Backend · AI Engineering</text>
+
+  </g>
+
+  <!-- ================================================== -->
+  <!-- LOCATION CARD -->
+  <!-- ================================================== -->
+
+  <g id="location-card">
+
+    <rect x="855" y="77" width="362" height="106" rx="15"
+          fill="url(#infoCard)"
+          stroke="#008fff"
+          stroke-width="1.5"/>
+
+    <rect x="855" y="77" width="362" height="106" rx="15"
+          fill="none"
+          stroke="#00d4ff"
+          stroke-opacity=".18"/>
+
+    <!-- Location icon frame -->
+    <rect x="881" y="96" width="57" height="66" rx="12"
+          fill="#06294b"
+          stroke="#00d4ff"
+          stroke-width="1.8"/>
+
+    <!-- Map pin -->
+    <g transform="translate(909 125)"
+       fill="none"
+       stroke="#00e5ff"
+       stroke-width="3"
+       stroke-linecap="round"
+       stroke-linejoin="round">
+
+      <path d="M0 -18
+               C-10 -18 -16 -10 -16 -1
+               C-16 11 0 25 0 25
+               C0 25 16 11 16 -1
+               C16 -10 10 -18 0 -18Z"/>
+
+      <circle cx="0" cy="-2" r="5"/>
+    </g>
+
+    <text x="961" y="113"
+          class="mono white"
+          font-size="13"
+          font-weight="800"
+          letter-spacing="2">LOCATION</text>
+
+    <text x="961" y="145"
+          class="mono muted"
+          font-size="16">Deggendorf, Germany</text>
+  </g>
+
+  <!-- ================================================== -->
+  <!-- AVAILABILITY CARD -->
+  <!-- ================================================== -->
+
+  <g id="availability-card">
+
+    <rect x="1237" y="77" width="370" height="106" rx="15"
+          fill="url(#infoCard)"
+          stroke="#008fff"
+          stroke-width="1.5"/>
+
+    <rect x="1260" y="96" width="57" height="66" rx="12"
+          fill="#33291f"
+          stroke="#ffb45e"
+          stroke-width="1.8"/>
+
+    <!-- Briefcase icon -->
+    <g transform="translate(1288 129)"
+       fill="none"
+       stroke="#ffb45e"
+       stroke-width="3"
+       stroke-linecap="round"
+       stroke-linejoin="round">
+
+      <rect x="-15" y="-7" width="30" height="21" rx="3"/>
+      <path d="M-7 -7V-13Q-7 -17 -3 -17H3Q7 -17 7 -13V-7"/>
+      <path d="M-15 0H15"/>
+      <path d="M-3 0V4H3V0"/>
+    </g>
+
+    <text x="1340" y="108"
+          class="mono white"
+          font-size="13"
+          font-weight="800"
+          letter-spacing="2">STATUS</text>
+
+    <text x="1340" y="139"
+          class="mono amber"
+          font-size="14">Available for part-time work</text>
+
+    <text x="1340" y="160"
+          class="mono muted"
+          font-size="12">Can start immediately</text>
+  </g>
+
+  <!-- ================================================== -->
+  <!-- ISOMETRIC CITY PLATFORM -->
+  <!-- ================================================== -->
+
+  <g id="city-platform">
+
+    <!-- Platform shadow -->
+    <polygon points="54,585 827,360 1610,585 832,800"
+             fill="#000713"
+             opacity=".55"/>
+
+    <!-- Platform side faces -->
+    <polygon points="56,565 832,780 1608,565 1608,605 832,822 56,605"
+             fill="url(#platformSide)"
+             stroke="#075d9d"
+             stroke-width="1.5"/>
+
+    <!-- Main platform surface -->
+    <polygon points="56,565 832,350 1608,565 832,780"
+             fill="url(#platformTop)"
+             stroke="#087fc3"
+             stroke-width="2"/>
+
+    <!-- Platform perimeter glow -->
+    <polygon points="56,565 832,780 1608,565"
+             fill="none"
+             stroke="#00d4ff"
+             stroke-opacity=".25"
+             stroke-width="5"
+             filter="url(#smallGlow)"/>
+
+    <polygon points="56,565 832,780 1608,565 832,350"
+             fill="none"
+             stroke="#0789ff"
+             stroke-width="1.5"/>
+
+    <!-- Floor grid -->
+    <g class="circuit"
+       stroke="#1684ce"
+       stroke-width="1"
+       opacity=".2">
+
+      <path d="M130 545L832 739L1534 545"/>
+      <path d="M220 520L832 691L1444 520"/>
+      <path d="M310 495L832 643L1354 495"/>
+      <path d="M400 470L832 595L1264 470"/>
+      <path d="M490 445L832 547L1174 445"/>
+
+      <path d="M280 503L500 625"/>
+      <path d="M470 450L690 676"/>
+      <path d="M660 398L880 727"/>
+      <path d="M850 398L1070 676"/>
+      <path d="M1040 450L1260 625"/>
+      <path d="M1230 503L1440 545"/>
+    </g>
+  </g>
+
+  <!-- ================================================== -->
+  <!-- CONNECTING CIRCUITS -->
+  <!-- ================================================== -->
+
+  <g id="circuit-connections" class="circuit">
+
+    <path d="M210 500L210 550L430 610L550 577"
+          stroke="#0789ff"
+          stroke-width="3"
+          opacity=".9"/>
+
+    <path d="M430 490L430 535L615 590"
+          stroke="#00e5ff"
+          stroke-width="3"
+          opacity=".8"/>
+
+    <path d="M820 430L820 555L735 595"
+          stroke="#62f7ba"
+          stroke-width="3"
+          opacity=".8"/>
+
+    <path d="M1040 475L1040 545L905 595"
+          stroke="#b16cff"
+          stroke-width="3"
+          opacity=".8"/>
+
+    <path d="M1240 500L1240 550L1110 590"
+          stroke="#ffad45"
+          stroke-width="3"
+          opacity=".8"/>
+
+    <path d="M1450 530L1450 565L1350 590"
+          stroke="#00d4ff"
+          stroke-width="3"
+          opacity=".8"/>
+
+    <!-- Circuit nodes -->
+    <g fill="#00e5ff">
+      <circle cx="210" cy="550" r="4"/>
+      <circle cx="430" cy="535" r="4"/>
+      <circle cx="820" cy="555" r="4"/>
+      <circle cx="1040" cy="545" r="4"/>
+      <circle cx="1240" cy="550" r="4"/>
+      <circle cx="1450" cy="565" r="4"/>
+    </g>
+  </g>
+
+  <!-- ================================================== -->
+  <!-- SERVER BUILDINGS -->
+  <!-- ================================================== -->
+
+  <g id="server-buildings"
+     stroke-linejoin="round">
+
+    <!-- Left server cluster -->
+    <g transform="translate(354 390)">
+      <polygon points="0,25 34,7 68,25 34,43"
+               fill="#07517e"
+               stroke="#00baff"/>
+
+      <polygon points="0,25 34,43 34,100 0,82"
+               fill="#052849"
+               stroke="#0079bd"/>
+
+      <polygon points="34,43 68,25 68,82 34,100"
+               fill="#06385e"
+               stroke="#0079bd"/>
+
+      <path d="M8 42L26 52M8 55L26 65M8 68L26 78"
+            fill="none"
+            stroke="#00d4ff"
+            stroke-width="2"/>
+
+      <path d="M42 50L60 40M42 64L60 54M42 78L60 68"
+            fill="none"
+            stroke="#00d4ff"
+            stroke-width="2"/>
+    </g>
+
+    <!-- Second server cluster -->
+    <g transform="translate(596 355)">
+      <polygon points="0,25 31,8 62,25 31,42"
+               fill="#07517e"
+               stroke="#00d4ff"/>
+
+      <polygon points="0,25 31,42 31,89 0,72"
+               fill="#052849"
+               stroke="#087fc3"/>
+
+      <polygon points="31,42 62,25 62,72 31,89"
+               fill="#06416c"
+               stroke="#087fc3"/>
+
+      <path d="M7 42L24 51M7 55L24 64"
+            stroke="#00d4ff"
+            stroke-width="2"
+            fill="none"/>
+
+      <path d="M38 48L55 39M38 61L55 52"
+            stroke="#00d4ff"
+            stroke-width="2"
+            fill="none"/>
+    </g>
+
+    <!-- Right server cluster -->
+    <g transform="translate(1124 444)">
+      <polygon points="0,20 32,3 64,20 32,37"
+               fill="#0c4382"
+               stroke="#008fff"/>
+
+      <polygon points="0,20 32,37 32,84 0,67"
+               fill="#061d41"
+               stroke="#087fc3"/>
+
+      <polygon points="32,37 64,20 64,67 32,84"
+               fill="#073464"
+               stroke="#087fc3"/>
+
+      <path d="M8 38L25 47M8 51L25 60"
+            stroke="#00d4ff"
+            stroke-width="2"
+            fill="none"/>
+
+      <path d="M40 44L56 35M40 57L56 48"
+            stroke="#00d4ff"
+            stroke-width="2"
+            fill="none"/>
+    </g>
+
+  </g>
+
+  <!-- ================================================== -->
+  <!-- CENTRAL BACKEND INFRASTRUCTURE -->
+  <!-- ================================================== -->
+
+  <g id="backend-core">
+
+    <!-- Core glow -->
+    <polygon points="670,460 817,415 965,460 817,515"
+             fill="#62f7ba"
+             opacity=".35"
+             filter="url(#glow)"/>
+
+    <!-- Core pedestal top -->
+    <polygon points="660,454 817,405 973,454 817,506"
+             fill="#064d58"
+             stroke="#62f7ba"
+             stroke-width="2"/>
+
+    <!-- Pedestal sides -->
+    <polygon points="660,454 817,506 817,535 660,483"
+             fill="#063545"
+             stroke="#168e94"/>
+
+    <polygon points="817,506 973,454 973,483 817,535"
+             fill="#075054"
+             stroke="#168e94"/>
+
+    <!-- Main server block -->
+    <polygon points="702,512 817,472 932,512 817,553"
+             fill="#062c48"
+             stroke="#00d4ff"
+             stroke-width="1.5"/>
+
+    <polygon points="702,512 817,553 817,648 702,607"
+             fill="#041a30"
+             stroke="#087fc3"/>
+
+    <polygon points="817,553 932,512 932,607 817,648"
+             fill="#063b60"
+             stroke="#087fc3"/>
+
+    <!-- Server lights -->
+    <g fill="#62f7ba">
+      <rect x="728" y="545" width="9" height="4" rx="1"/>
+      <rect x="746" y="551" width="9" height="4" rx="1"/>
+      <rect x="764" y="557" width="9" height="4" rx="1"/>
+      <rect x="782" y="563" width="9" height="4" rx="1"/>
+
+      <rect x="728" y="568" width="9" height="4" rx="1"/>
+      <rect x="746" y="574" width="9" height="4" rx="1"/>
+      <rect x="764" y="580" width="9" height="4" rx="1"/>
+      <rect x="782" y="586" width="9" height="4" rx="1"/>
+    </g>
+
+    <g fill="#00d4ff">
+      <rect x="839" y="552" width="10" height="4" rx="1"/>
+      <rect x="858" y="545" width="10" height="4" rx="1"/>
+      <rect x="877" y="538" width="10" height="4" rx="1"/>
+
+      <rect x="839" y="576" width="10" height="4" rx="1"/>
+      <rect x="858" y="569" width="10" height="4" rx="1"/>
+      <rect x="877" y="562" width="10" height="4" rx="1"/>
+    </g>
+  </g>
+
+  <!-- ================================================== -->
+  <!-- TECHNOLOGY PANEL TEMPLATE: LANGUAGES -->
+  <!-- ================================================== -->
+
+  <g id="languages-panel">
+
+    <!-- Base -->
+    <polygon points="85,525 213,561 342,525 213,489"
+             fill="#064e91"
+             stroke="#008fff"
+             stroke-width="1.5"/>
+
+    <polygon points="85,525 213,561 213,581 85,545"
+             fill="#052b52"
+             stroke="#087fc3"/>
+
+    <polygon points="213,561 342,525 342,545 213,581"
+             fill="#074078"
+             stroke="#087fc3"/>
+
+    <!-- Panel -->
+    <path d="M171 342
+             L314 312
+             Q328 312 330 327
+             L330 489
+             L171 531Z"
+          fill="#008fff"
+          opacity=".16"
+          filter="url(#smallGlow)"/>
+
+    <path d="M171 342
+             L314 312
+             Q328 312 330 327
+             L330 489
+             L171 531Z"
+          fill="url(#blueCard)"
+          stroke="#168dff"
+          stroke-width="2"/>
+
+    <path d="M171 342L314 312"
+          fill="none"
+          stroke="#36a5ff"
+          stroke-width="3"/>
+
+    <!-- Code icon -->
+    <g transform="translate(251 384)"
+       fill="none"
+       stroke="#00d4ff"
+       stroke-width="5"
+       stroke-linecap="round"
+       stroke-linejoin="round">
+      <path d="M-22 -12L-39 0L-22 12"/>
+      <path d="M22 -12L39 0L22 12"/>
+      <path d="M13 -23L-8 23"/>
+    </g>
+
+    <text x="251" y="435"
+          text-anchor="middle"
+          class="mono white panel-title">LANGUAGES</text>
+
+    <text x="251" y="463"
+          text-anchor="middle"
+          class="mono panel-copy">JS · TS · Python</text>
+
+    <text x="251" y="482"
+          text-anchor="middle"
+          class="mono panel-copy">PHP · SQL</text>
+  </g>
+
+  <!-- ================================================== -->
+  <!-- FRONTEND PANEL -->
+  <!-- ================================================== -->
+
+  <g id="frontend-panel">
+
+    <polygon points="345,548 490,590 635,548 490,506"
+             fill="#087e94"
+             stroke="#00e5ff"
+             stroke-width="1.5"/>
+
+    <polygon points="345,548 490,590 490,611 345,569"
+             fill="#064054"
+             stroke="#00a9c7"/>
+
+    <polygon points="490,590 635,548 635,569 490,611"
+             fill="#07657c"
+             stroke="#00a9c7"/>
+
+    <path d="M431 330
+             L574 300
+             Q588 299 590 315
+             L590 511
+             L431 553Z"
+          fill="url(#cyanCard)"
+          stroke="#00e5ff"
+          stroke-width="2"/>
+
+    <path d="M431 330L574 300"
+          fill="none"
+          stroke="#4ff7ff"
+          stroke-width="3"/>
+
+    <!-- React-inspired icon -->
+    <g transform="translate(510 371)"
+       fill="none"
+       stroke="#00e5ff"
+       stroke-width="3.2">
+
+      <ellipse rx="30" ry="12"/>
+      <ellipse rx="30" ry="12" transform="rotate(60)"/>
+      <ellipse rx="30" ry="12" transform="rotate(120)"/>
+      <circle r="4" fill="#00e5ff"/>
+    </g>
+
+    <text x="510" y="426"
+          text-anchor="middle"
+          class="mono white panel-title">FRONTEND</text>
+
+    <text x="510" y="454"
+          text-anchor="middle"
+          class="mono panel-copy">React · Vite</text>
+
+    <text x="510" y="473"
+          text-anchor="middle"
+          class="mono panel-copy">Tailwind · Radix</text>
+  </g>
+
+  <!-- ================================================== -->
+  <!-- BACKEND PANEL -->
+  <!-- ================================================== -->
+
+  <g id="backend-panel">
+
+    <polygon points="660,438 815,483 970,438 815,393"
+             fill="#08785b"
+             stroke="#62f7ba"
+             stroke-width="1.5"/>
+
+    <polygon points="660,438 815,483 815,507 660,462"
+             fill="#064439"
+             stroke="#28bf91"/>
+
+    <polygon points="815,483 970,438 970,462 815,507"
+             fill="#07604b"
+             stroke="#28bf91"/>
+
+    <!-- Main panel -->
+    <path d="M672 266
+             L815 225
+             L850 259
+             L850 426
+             L672 466Z"
+          fill="url(#greenCard)"
+          stroke="#62f7ba"
+          stroke-width="2"/>
+
+    <path d="M672 266L815 225L850 259"
+          fill="none"
+          stroke="#62f7ba"
+          stroke-width="2"/>
+
+    <!-- JS-inspired hexagon -->
+    <polygon points="765,268 791,282 791,310 765,325 739,310 739,282"
+             fill="none"
+             stroke="#62f7ba"
+             stroke-width="4"
+             stroke-linejoin="round"/>
+
+    <text x="765" y="303"
+          text-anchor="middle"
+          class="mono"
+          font-size="19"
+          font-weight="900"
+          fill="#62f7ba">JS</text>
+
+    <text x="765" y="360"
+          text-anchor="middle"
+          class="mono white panel-title">BACKEND</text>
+
+    <text x="765" y="385"
+          text-anchor="middle"
+          class="mono panel-copy">Node · Express</text>
+
+    <text x="765" y="405"
+          text-anchor="middle"
+          class="mono panel-copy">Socket.IO</text>
+  </g>
+
+  <!-- ================================================== -->
+  <!-- DATA & AI PANEL -->
+  <!-- ================================================== -->
+
+  <g id="data-ai-panel">
+
+    <polygon points="910,498 1050,539 1190,498 1050,457"
+             fill="#5821a0"
+             stroke="#bd7aff"
+             stroke-width="1.5"/>
+
+    <polygon points="910,498 1050,539 1050,560 910,519"
+             fill="#28164f"
+             stroke="#8e4de6"/>
+
+    <polygon points="1050,539 1190,498 1190,519 1050,560"
+             fill="#422078"
+             stroke="#8e4de6"/>
+
+    <path d="M954 304
+             L1090 293
+             Q1105 295 1105 311
+             L1105 484
+             L954 527Z"
+          fill="url(#purpleCard)"
+          stroke="#b16cff"
+          stroke-width="2"/>
+
+    <path d="M954 304L1090 293"
+          fill="none"
+          stroke="#d09aff"
+          stroke-width="3"/>
+
+    <!-- Neural network icon -->
+    <g transform="translate(1026 350)"
+       fill="none"
+       stroke="#d16aff"
+       stroke-width="2.8"
+       stroke-linecap="round">
+
+      <path d="M0 -18V18"/>
+      <path d="M-5 -15L-16 -9L-18 0L-12 7L-15 15L-5 18"/>
+      <path d="M5 -15L16 -9L18 0L12 7L15 15L5 18"/>
+      <path d="M-16 -9L-5 -4M16 -9L5 -4"/>
+      <path d="M-18 0H-5M18 0H5"/>
+      <path d="M-12 7L-5 9M12 7L5 9"/>
+      <circle cx="0" cy="-18" r="3" fill="#d16aff"/>
+      <circle cx="0" cy="18" r="3" fill="#d16aff"/>
+    </g>
+
+    <text x="1026" y="405"
+          text-anchor="middle"
+          class="mono white panel-title">DATA &amp; AI</text>
+
+    <text x="1026" y="432"
+          text-anchor="middle"
+          class="mono panel-copy">MongoDB · D1</text>
+
+    <text x="1026" y="451"
+          text-anchor="middle"
+          class="mono panel-copy">Hugging Face</text>
+  </g>
+
+  <!-- ================================================== -->
+  <!-- CLOUD PANEL -->
+  <!-- ================================================== -->
+
+  <g id="cloud-panel">
+
+    <polygon points="1166,532 1287,567 1408,532 1287,497"
+             fill="#93601f"
+             stroke="#ffb45e"
+             stroke-width="1.5"/>
+
+    <polygon points="1166,532 1287,567 1287,588 1166,553"
+             fill="#3c2a20"
+             stroke="#d89036"/>
+
+    <polygon points="1287,567 1408,532 1408,553 1287,588"
+             fill="#70421f"
+             stroke="#d89036"/>
+
+    <path d="M1215 340
+             L1352 334
+             Q1364 334 1364 348
+             L1364 515
+             L1215 555Z"
+          fill="url(#amberCard)"
+          stroke="#ffb45e"
+          stroke-width="2"/>
+
+    <path d="M1215 340L1352 334"
+          fill="none"
+          stroke="#ffd18a"
+          stroke-width="3"/>
+
+    <!-- Cloud icon -->
+    <g transform="translate(1288 384)"
+       fill="none"
+       stroke="#ffb45e"
+       stroke-width="4"
+       stroke-linecap="round"
+       stroke-linejoin="round">
+
+      <path d="M-23 9
+               C-34 9 -36 -5 -26 -11
+               C-24 -24 -5 -29 3 -17
+               C17 -21 28 -10 25 2
+               C24 9 18 12 11 12
+               H-23Z"/>
+    </g>
+
+    <text x="1288" y="436"
+          text-anchor="middle"
+          class="mono white panel-title">CLOUD</text>
+
+    <text x="1288" y="463"
+          text-anchor="middle"
+          class="mono panel-copy">Workers · Pages</text>
+
+    <text x="1288" y="482"
+          text-anchor="middle"
+          class="mono panel-copy">Vercel · Docker</text>
+  </g>
+
+  <!-- ================================================== -->
+  <!-- MOBILE PANEL -->
+  <!-- ================================================== -->
+
+  <g id="mobile-panel">
+
+    <polygon points="1378,557 1460,581 1542,557 1460,533"
+             fill="#087e94"
+             stroke="#00e5ff"
+             stroke-width="1.5"/>
+
+    <polygon points="1378,557 1460,581 1460,602 1378,578"
+             fill="#064054"
+             stroke="#00a9c7"/>
+
+    <polygon points="1460,581 1542,557 1542,578 1460,602"
+             fill="#07657c"
+             stroke="#00a9c7"/>
+
+    <path d="M1413 386
+             L1534 416
+             Q1550 420 1550 435
+             L1550 547
+             L1413 570Z"
+          fill="url(#cyanCard)"
+          stroke="#00d4ff"
+          stroke-width="2"/>
+
+    <path d="M1413 386L1534 416"
+          fill="none"
+          stroke="#5ff7ff"
+          stroke-width="3"/>
+
+    <!-- Phone icon -->
+    <g transform="translate(1482 439)"
+       fill="none"
+       stroke="#00e5ff"
+       stroke-width="3.5"
+       stroke-linejoin="round">
+
+      <rect x="-12" y="-22" width="24" height="43" rx="3"/>
+      <path d="M-5 -16H5"/>
+      <circle cx="0" cy="14" r="1.5" fill="#00e5ff"/>
+    </g>
+
+    <text x="1482" y="493"
+          text-anchor="middle"
+          class="mono white panel-title">MOBILE</text>
+
+    <text x="1482" y="520"
+          text-anchor="middle"
+          class="mono panel-copy">Capacitor</text>
+
+    <text x="1482" y="539"
+          text-anchor="middle"
+          class="mono panel-copy">PWA</text>
+  </g>
+
+  <!-- ================================================== -->
+  <!-- DECORATIVE TREES -->
+  <!-- ================================================== -->
+
+  <g id="city-greenery">
+
+    <g transform="translate(92 507)">
+      <path d="M0 0V34" stroke="#145c54" stroke-width="5"/>
+      <path d="M0 -25L-18 2H18Z" fill="#08755b"/>
+      <path d="M0 -42L-14 -17H14Z" fill="#0b8c68"/>
+      <path d="M0 -57L-10 -35H10Z" fill="#10a77a"/>
+    </g>
+
+    <g transform="translate(1577 526)">
+      <path d="M0 0V30" stroke="#145c54" stroke-width="5"/>
+      <path d="M0 -22L-17 4H17Z" fill="#08755b"/>
+      <path d="M0 -39L-13 -15H13Z" fill="#0b8c68"/>
+      <path d="M0 -53L-9 -32H9Z" fill="#10a77a"/>
+    </g>
+
+    <g transform="translate(1307 567) scale(.65)">
+      <path d="M0 0V30" stroke="#145c54" stroke-width="5"/>
+      <path d="M0 -22L-17 4H17Z" fill="#08755b"/>
+      <path d="M0 -39L-13 -15H13Z" fill="#0b8c68"/>
+      <path d="M0 -53L-9 -32H9Z" fill="#10a77a"/>
+    </g>
+
+    <g transform="translate(367 565) scale(.65)">
+      <path d="M0 0V30" stroke="#145c54" stroke-width="5"/>
+      <path d="M0 -22L-17 4H17Z" fill="#08755b"/>
+      <path d="M0 -39L-13 -15H13Z" fill="#0b8c68"/>
+      <path d="M0 -53L-9 -32H9Z" fill="#10a77a"/>
+    </g>
+
+  </g>
+
+  <!-- ================================================== -->
+  <!-- FOOTER -->
+  <!-- ================================================== -->
+
+  <g id="footer">
+
+    <path d="M525 813H706"
+          stroke="#0789ff"
+          stroke-width="1.5"/>
+
+    <path d="M957 813H1138"
+          stroke="#0789ff"
+          stroke-width="1.5"/>
+
+    <text x="831" y="820"
+          text-anchor="middle"
+          class="mono"
+          font-size="20"
+          font-weight="700"
+          letter-spacing="5"
+          fill="#438ad6">TECH STACK</text>
+
+    <text x="831" y="853"
+          text-anchor="middle"
+          class="mono"
+          font-size="13"
+          font-weight="700"
+          letter-spacing="3"
+          fill="#729bc8">BUILD / SOLVE / CREATE IMPACT</text>
+
+    <circle cx="50" cy="743" r="3" fill="#00d4ff" opacity=".6"/>
+    <circle cx="64" cy="743" r="3" fill="#00d4ff" opacity=".4"/>
+    <circle cx="78" cy="743" r="3" fill="#00d4ff" opacity=".25"/>
+  </g>
+
+</svg>

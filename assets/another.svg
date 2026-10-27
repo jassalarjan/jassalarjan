@@ -1,0 +1,308 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="100%"
+     height="500"
+     viewBox="0 0 1400 500"
+     role="img"
+     aria-labelledby="about-title about-desc">
+
+  <title id="about-title">About Me</title>
+  <desc id="about-desc">
+    About section featuring an introduction, areas of focus, and technology stack.
+  </desc>
+
+  <defs>
+    <linearGradient id="about-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050a14"/>
+      <stop offset="100%" stop-color="#0e2841"/>
+    </linearGradient>
+
+    <linearGradient id="about-card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#163a5f"/>
+      <stop offset="100%" stop-color="#0e2841"/>
+    </linearGradient>
+
+    <linearGradient id="about-accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#eba055"/>
+      <stop offset="100%" stop-color="#00d4ff"/>
+    </linearGradient>
+
+    <pattern id="about-grid"
+             width="40"
+             height="40"
+             patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40"
+            fill="none"
+            stroke="#ffffff"
+            stroke-opacity="0.06"
+            stroke-width="1"/>
+    </pattern>
+
+    <style>
+      .about-mono {
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+      }
+
+      .about-heading {
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+        font-size: 27px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        fill: #ffffff;
+      }
+
+      .about-label {
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+        fill: #00d4ff;
+      }
+
+      .about-body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        fill: #d5e3f0;
+      }
+
+      .about-card-title {
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+        font-size: 17px;
+        font-weight: 700;
+        fill: #ffffff;
+      }
+
+      .about-tag {
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+        font-size: 12px;
+        fill: #d5e3f0;
+      }
+
+      .about-corner {
+        fill: none;
+        stroke: #00d4ff;
+        stroke-width: 2;
+        stroke-linecap: square;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="500" fill="url(#about-bg)"/>
+  <rect width="1400" height="500" fill="url(#about-grid)"/>
+
+  <!-- Inward-facing corner accents -->
+  <g id="about-corners" class="about-corner">
+    <!-- Top-left -->
+    <path d="M40 70V40H70"/>
+
+    <!-- Top-right -->
+    <path d="M1330 40H1360V70"/>
+
+    <!-- Bottom-left -->
+    <path d="M40 430V460H70"/>
+
+    <!-- Bottom-right -->
+    <path d="M1330 460H1360V430"/>
+  </g>
+
+  <!-- Section heading -->
+  <g id="about-heading">
+    <text x="68" y="91" class="about-heading">ABOUT ME</text>
+
+    <rect x="68" y="108" width="100" height="3" rx="1.5"
+          fill="url(#about-accent)"/>
+
+    <text x="185" y="114"
+          class="about-mono"
+          font-size="12"
+          fill="#8da9c2">01 / INTRODUCTION</text>
+  </g>
+
+  <!-- Main introduction card -->
+  <g id="about-introduction">
+    <rect x="68" y="137" width="790" height="200" rx="12"
+          fill="url(#about-card)"
+          stroke="#ffffff"
+          stroke-opacity="0.12"/>
+
+    <rect x="68" y="137" width="4" height="200" rx="2"
+          fill="url(#about-accent)"/>
+
+    <text x="96" y="169" class="about-label">// WHO I AM</text>
+
+    <text x="96" y="203" class="about-body">
+      <tspan x="96" dy="0">I'm passionate about building intelligent systems</tspan>
+      <tspan x="96" dy="25">and exploring how AI can solve real-world problems.</tspan>
+      <tspan x="96" dy="25">I enjoy combining analytical thinking, programming,</tspan>
+      <tspan x="96" dy="25">and experimentation to turn ideas into useful solutions.</tspan>
+    </text>
+
+    <path d="M96 302H830"
+          stroke="#ffffff"
+          stroke-opacity="0.12"
+          stroke-width="1"/>
+
+    <text x="96" y="322"
+          class="about-mono"
+          font-size="12"
+          fill="#8da9c2">CURIOUS BY NATURE · DRIVEN BY DISCOVERY</text>
+  </g>
+
+  <!-- Focus areas -->
+  <g id="about-focus">
+    <text x="886" y="151" class="about-label">// AREAS OF FOCUS</text>
+
+    <!-- Artificial intelligence -->
+    <rect x="886" y="166" width="446" height="76" rx="10"
+          fill="url(#about-card)"
+          stroke="#ffffff"
+          stroke-opacity="0.12"/>
+
+    <rect x="904" y="185" width="36" height="36" rx="8"
+          fill="#00d4ff"
+          fill-opacity="0.12"
+          stroke="#00d4ff"
+          stroke-opacity="0.55"/>
+
+    <g transform="translate(912 193)"
+       fill="none"
+       stroke="#00d4ff"
+       stroke-width="1.7"
+       stroke-linecap="round"
+       stroke-linejoin="round">
+      <rect x="2" y="2" width="20" height="20" rx="4"/>
+      <path d="M7 0V2M17 0V2M7 22V24M17 22V24M0 7H2M0 17H2M22 7H24M22 17H24"/>
+      <path d="M8 8H16V16H8Z"/>
+      <path d="M10 12H14"/>
+    </g>
+
+    <text x="955" y="195" class="about-card-title">Artificial Intelligence</text>
+    <text x="955" y="217"
+          class="about-mono"
+          font-size="12"
+          fill="#9bb4ca">Learning · Models · Intelligent systems</text>
+
+    <!-- Software engineering -->
+    <rect x="886" y="254" width="446" height="76" rx="10"
+          fill="url(#about-card)"
+          stroke="#ffffff"
+          stroke-opacity="0.12"/>
+
+    <rect x="904" y="273" width="36" height="36" rx="8"
+          fill="#eba055"
+          fill-opacity="0.12"
+          stroke="#eba055"
+          stroke-opacity="0.65"/>
+
+    <g transform="translate(911 281)"
+       fill="none"
+       stroke="#eba055"
+       stroke-width="1.8"
+       stroke-linecap="round"
+       stroke-linejoin="round">
+      <path d="M8 2L2 10L8 18"/>
+      <path d="M16 2L22 10L16 18"/>
+      <path d="M14 0L10 20"/>
+    </g>
+
+    <text x="955" y="283" class="about-card-title">Software Engineering</text>
+    <text x="955" y="305"
+          class="about-mono"
+          font-size="12"
+          fill="#9bb4ca">Programming · Problem solving · Building</text>
+  </g>
+
+  <!-- Technology stack -->
+  <g id="about-technologies">
+    <text x="68" y="378" class="about-label">// TECHNOLOGY STACK</text>
+
+    <!-- Python -->
+    <g transform="translate(68 394)">
+      <rect width="112" height="34" rx="6"
+            fill="#163a5f"
+            stroke="#00d4ff"
+            stroke-opacity="0.35"/>
+      <circle cx="15" cy="17" r="4" fill="#00d4ff"/>
+      <text x="27" y="22" class="about-tag">Python</text>
+    </g>
+
+    <!-- Machine learning -->
+    <g transform="translate(190 394)">
+      <rect width="166" height="34" rx="6"
+            fill="#163a5f"
+            stroke="#00d4ff"
+            stroke-opacity="0.35"/>
+      <circle cx="15" cy="17" r="4" fill="#00d4ff"/>
+      <text x="27" y="22" class="about-tag">Machine Learning</text>
+    </g>
+
+    <!-- Data analysis -->
+    <g transform="translate(366 394)">
+      <rect width="142" height="34" rx="6"
+            fill="#163a5f"
+            stroke="#00d4ff"
+            stroke-opacity="0.35"/>
+      <circle cx="15" cy="17" r="4" fill="#00d4ff"/>
+      <text x="27" y="22" class="about-tag">Data Analysis</text>
+    </g>
+
+    <!-- Problem solving -->
+    <g transform="translate(518 394)">
+      <rect width="154" height="34" rx="6"
+            fill="#163a5f"
+            stroke="#00d4ff"
+            stroke-opacity="0.35"/>
+      <circle cx="15" cy="17" r="4" fill="#00d4ff"/>
+      <text x="27" y="22" class="about-tag">Problem Solving</text>
+    </g>
+
+    <!-- Development -->
+    <g transform="translate(682 394)">
+      <rect width="150" height="34" rx="6"
+            fill="#163a5f"
+            stroke="#00d4ff"
+            stroke-opacity="0.35"/>
+      <circle cx="15" cy="17" r="4" fill="#00d4ff"/>
+      <text x="27" y="22" class="about-tag">Development</text>
+    </g>
+  </g>
+
+  <!-- Footer accent -->
+  <g id="about-footer">
+    <path d="M886 370H1332"
+          stroke="#ffffff"
+          stroke-opacity="0.12"
+          stroke-width="1"/>
+
+    <text x="886" y="398"
+          class="about-mono"
+          font-size="12"
+          fill="#8da9c2">ALWAYS LEARNING.</text>
+
+    <text x="886" y="419"
+          class="about-mono"
+          font-size="12"
+          fill="#8da9c2">ALWAYS BUILDING.</text>
+
+    <circle cx="1317" cy="410" r="4" fill="#00d4ff"/>
+  </g>
+
+  <!-- Bottom status line -->
+  <path d="M68 449H1332"
+        stroke="#ffffff"
+        stroke-opacity="0.12"
+        stroke-width="1"/>
+
+  <text x="68" y="474"
+        class="about-mono"
+        font-size="11"
+        fill="#718ba5">ABOUT / PROFILE</text>
+
+  <text x="1332" y="474"
+        text-anchor="end"
+        class="about-mono"
+        font-size="11"
+        fill="#718ba5">END_SECTION_01</text>
+
+</svg>

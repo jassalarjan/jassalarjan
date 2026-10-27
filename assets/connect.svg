@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="220" viewBox="0 0 1400 220" role="img" aria-label="Connect panel">
+  <defs>
+    <linearGradient id="panelGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a1426"/>
+      <stop offset="100%" stop-color="#0e2841"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="220" fill="url(#panelGrad)"/>
+
+  <rect x="60" y="50" width="200" height="4" fill="#eba055"/>
+  <text x="60" y="86" font-family="monospace" font-size="34" font-weight="900" fill="#ffffff" letter-spacing="1">CONNECT</text>
+
+  <!-- Badge row (centered, consistent 20px gaps) -->
+  <g transform="translate(300, 132)">
+    <a href="https://linkedin.com/in/arjan-singh-jassal-296b9a250" target="_blank">
+      <image x="0" y="0" width="200" height="40" href="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white"/>
+    </a>
+    <g transform="translate(220, 0)">
+      <a href="https://github.com/jassalarjan" target="_blank">
+        <image x="0" y="0" width="180" height="40" href="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white"/>
+      </a>
+    </g>
+    <g transform="translate(420, 0)">
+      <a href="https://arjansinghjassal.xyz" target="_blank">
+        <image x="0" y="0" width="200" height="40" href="https://img.shields.io/badge/Portfolio-eba055?style=for-the-badge&amp;logo=google-chrome&amp;logoColor=0e2841"/>
+      </a>
+    </g>
+    <g transform="translate(640, 0)">
+      <a href="mailto:jassalarjansingh@gmail.com">
+        <image x="0" y="0" width="160" height="40" href="https://img.shields.io/badge/Email-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white"/>
+      </a>
+    </g>
+  </g>
+
+  <!-- Availability -->
+  <text x="60" y="192" font-family="monospace" font-size="15" font-weight="700" fill="#eba055" letter-spacing="2">Available for part-time work · Can start immediately</text>
+</svg>

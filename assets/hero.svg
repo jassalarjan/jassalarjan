@@ -1,0 +1,643 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="100%"
+     viewBox="0 0 1866 768"
+     preserveAspectRatio="xMidYMid meet"
+     role="img"
+     aria-labelledby="hero-title hero-desc">
+
+  <title id="hero-title">Arjan Singh Jassal — AI and Full-Stack Developer</title>
+  <desc id="hero-desc">
+    Futuristic portfolio banner featuring an isometric technology stack,
+    Artificial Intelligence degree, full-stack development and backend
+    engineering, location in Deggendorf, Germany, and part-time availability.
+  </desc>
+
+  <defs>
+    <!-- Background -->
+    <linearGradient id="hero-background" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#03142d"/>
+      <stop offset="55%" stop-color="#03264a"/>
+      <stop offset="100%" stop-color="#052c50"/>
+    </linearGradient>
+
+    <!-- Central glow -->
+    <radialGradient id="hero-blue-glow">
+      <stop offset="0%" stop-color="#007bdb" stop-opacity=".3"/>
+      <stop offset="100%" stop-color="#007bdb" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="hero-amber-glow">
+      <stop offset="0%" stop-color="#eba055" stop-opacity=".23"/>
+      <stop offset="100%" stop-color="#eba055" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Accent gradients -->
+    <linearGradient id="hero-accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#eba055"/>
+      <stop offset="48%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#0789ff"/>
+    </linearGradient>
+
+    <linearGradient id="hero-name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#e5f0ff"/>
+      <stop offset="100%" stop-color="#ffb45e"/>
+    </linearGradient>
+
+    <!-- Technology layers -->
+    <linearGradient id="layer-top" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07509a"/>
+      <stop offset="100%" stop-color="#03254d"/>
+    </linearGradient>
+
+    <linearGradient id="layer-middle" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0751a8"/>
+      <stop offset="100%" stop-color="#031d43"/>
+    </linearGradient>
+
+    <linearGradient id="layer-lower" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#064b83"/>
+      <stop offset="100%" stop-color="#02162f"/>
+    </linearGradient>
+
+    <!-- Information cards -->
+    <linearGradient id="hero-card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#073c70" stop-opacity=".96"/>
+      <stop offset="100%" stop-color="#032348" stop-opacity=".98"/>
+    </linearGradient>
+
+    <linearGradient id="hero-card-border" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#087fff"/>
+    </linearGradient>
+
+    <!-- Grid -->
+    <pattern id="hero-grid"
+             width="50"
+             height="53"
+             patternUnits="userSpaceOnUse">
+      <path d="M50 0H0V53"
+            fill="none"
+            stroke="#1782c8"
+            stroke-opacity=".19"
+            stroke-width="1"/>
+    </pattern>
+
+    <!-- Glows -->
+    <filter id="hero-soft-glow"
+            x="-100%"
+            y="-100%"
+            width="300%"
+            height="300%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+
+    <filter id="hero-small-glow"
+            x="-100%"
+            y="-100%"
+            width="300%"
+            height="300%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+
+    <style>
+      .hero-mono {
+        font-family: "SFMono-Regular", Consolas,
+                     "Liberation Mono", monospace;
+      }
+
+      .hero-white {
+        fill: #f5f8ff;
+      }
+
+      .hero-muted {
+        fill: #91b8ed;
+      }
+
+      .hero-cyan {
+        fill: #00d4ff;
+      }
+
+      .hero-amber {
+        fill: #ffb45e;
+      }
+
+      .hero-label {
+        font-size: 21px;
+        font-weight: 800;
+        letter-spacing: 2px;
+      }
+
+      .hero-detail {
+        font-size: 19px;
+      }
+
+      .hero-footer {
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+        fill: #528ac7;
+      }
+    </style>
+  </defs>
+
+  <!-- =========================================
+       BACKGROUND
+  ========================================== -->
+
+  <rect width="1866" height="768" fill="url(#hero-background)"/>
+  <rect width="1866" height="768" fill="url(#hero-grid)"/>
+
+  <ellipse cx="310" cy="320"
+           rx="300" ry="280"
+           fill="url(#hero-amber-glow)"/>
+
+  <ellipse cx="1580" cy="220"
+           rx="370" ry="310"
+           fill="url(#hero-blue-glow)"/>
+
+  <ellipse cx="1000" cy="540"
+           rx="550" ry="260"
+           fill="url(#hero-blue-glow)"
+           opacity=".5"/>
+
+  <!-- Decorative orbital arcs -->
+  <g fill="none" stroke="#0789ff" stroke-width="1.5" opacity=".55">
+    <path d="M1570 -40 A220 220 0 0 0 1850 180"/>
+    <path d="M0 558 A220 220 0 0 1 326 768"/>
+  </g>
+
+  <!-- =========================================
+       CORNER BRACKETS — INWARD FACING
+  ========================================== -->
+
+  <g fill="none"
+     stroke-width="4"
+     stroke-linecap="square">
+
+    <!-- Top-left -->
+    <path d="M52 106V45H113"
+          stroke="#ffb45e"/>
+
+    <!-- Top-right -->
+    <path d="M1757 45H1816V106"
+          stroke="#00d4ff"/>
+
+    <!-- Bottom-left -->
+    <path d="M52 622V678H113"
+          stroke="#ffb45e"/>
+
+    <!-- Bottom-right -->
+    <path d="M1816 622V678H1757"
+          stroke="#ffb45e"/>
+
+  </g>
+
+  <!-- =========================================
+       LEFT: ISOMETRIC TECHNOLOGY STACK
+  ========================================== -->
+
+  <g id="technology-stack">
+
+    <!-- Ambient halo -->
+    <circle cx="305" cy="325" r="224"
+            fill="#eba055"
+            opacity=".07"/>
+
+    <circle cx="305" cy="325" r="175"
+            fill="#eba055"
+            opacity=".035"/>
+
+    <!-- Orbital paths -->
+    <g fill="none" stroke-width="1.5">
+      <path d="M63 330
+               C90 278 190 275 300 324
+               S463 389 497 354"
+            stroke="#00aaff"
+            opacity=".7"/>
+
+      <path d="M90 390
+               C160 460 345 474 464 376"
+            stroke="#eba055"
+            opacity=".8"/>
+
+      <path d="M66 327
+               C47 369 93 425 148 447"
+            stroke="#00d4ff"
+            opacity=".6"/>
+    </g>
+
+    <!-- Orbit nodes -->
+    <g>
+      <circle cx="63" cy="330" r="5" fill="#00d4ff"/>
+      <circle cx="63" cy="330" r="12"
+              fill="#00d4ff" opacity=".25"
+              filter="url(#hero-small-glow)"/>
+
+      <circle cx="90" cy="397" r="4" fill="#00d4ff"/>
+      <circle cx="90" cy="397" r="10"
+              fill="#00d4ff" opacity=".3"
+              filter="url(#hero-small-glow)"/>
+
+      <circle cx="437" cy="440" r="5" fill="#ffb45e"/>
+      <circle cx="437" cy="440" r="12"
+              fill="#ffb45e" opacity=".5"
+              filter="url(#hero-small-glow)"/>
+
+      <circle cx="499" cy="356" r="4" fill="#00d4ff"/>
+      <circle cx="499" cy="356" r="10"
+              fill="#00d4ff" opacity=".4"
+              filter="url(#hero-small-glow)"/>
+
+      <circle cx="435" cy="195" r="5" fill="#ffb45e"/>
+      <circle cx="435" cy="195" r="12"
+              fill="#ffb45e" opacity=".5"
+              filter="url(#hero-small-glow)"/>
+    </g>
+
+    <!-- Lowest layer -->
+    <g stroke="#008bd8" stroke-width="1.5" stroke-linejoin="round">
+
+      <polygon points="304,420 444,350 304,280 164,350"
+               fill="#041a34"
+               stroke="#008bd8"/>
+
+      <polygon points="164,350 304,420 304,468 164,398"
+               fill="#05264a"/>
+
+      <polygon points="304,420 444,350 444,398 304,468"
+               fill="#063b68"/>
+
+      <path d="M164 350L304 420L444 350"
+            fill="none"
+            stroke="#00d4ff"
+            stroke-width="2"/>
+
+      <path d="M164 398L304 468L444 398"
+            fill="none"
+            stroke="#008bd8"
+            opacity=".6"/>
+    </g>
+
+    <!-- Middle layer -->
+    <g stroke="#008bd8" stroke-width="1.5" stroke-linejoin="round">
+
+      <polygon points="305,358 444,289 305,219 166,289"
+               fill="url(#layer-middle)"
+               stroke="#00bfff"/>
+
+      <polygon points="166,289 305,358 305,405 166,336"
+               fill="#062c59"/>
+
+      <polygon points="305,358 444,289 444,336 305,405"
+               fill="#07518a"/>
+
+      <path d="M166 289L305 358L444 289"
+            fill="none"
+            stroke="#00d4ff"
+            stroke-width="2"/>
+    </g>
+
+    <!-- Upper layer -->
+    <g stroke="#147be0" stroke-width="1.5" stroke-linejoin="round">
+
+      <polygon points="304,299 444,229 304,159 164,229"
+               fill="#0751a8"
+               stroke="#00aaff"/>
+
+      <polygon points="164,229 304,299 304,333 164,263"
+               fill="#06356c"/>
+
+      <polygon points="304,299 444,229 444,263 304,333"
+               fill="#075ca7"/>
+
+      <path d="M164 229L304 299L444 229"
+            fill="none"
+            stroke="#00d4ff"
+            stroke-width="2"/>
+    </g>
+
+    <!-- Top platform glow -->
+    <polygon points="304,145 462,216 304,302 160,228"
+             fill="#eba055"
+             opacity=".35"
+             filter="url(#hero-soft-glow)"/>
+
+    <!-- Top platform -->
+    <g stroke-linejoin="round">
+
+      <polygon points="324,146 462,216 304,302 160,228"
+               fill="url(#layer-top)"
+               stroke="#ffad45"
+               stroke-width="2"/>
+
+      <polygon points="160,228 304,302 304,307 160,233"
+               fill="#eba055"
+               opacity=".8"/>
+
+      <polygon points="304,302 462,216 462,223 304,309"
+               fill="#0067c6"/>
+
+      <!-- Top accent -->
+      <rect x="220" y="218"
+            width="184"
+            height="9"
+            rx="4.5"
+            fill="url(#hero-accent)"/>
+
+      <rect x="220" y="218"
+            width="184"
+            height="9"
+            rx="4.5"
+            fill="#00d4ff"
+            opacity=".2"
+            filter="url(#hero-small-glow)"/>
+    </g>
+
+    <!-- Small floating particle -->
+    <circle cx="435" cy="195" r="4" fill="#ffb45e"/>
+  </g>
+
+  <!-- =========================================
+       CENTER: NAME AND PROFESSIONAL IDENTITY
+  ========================================== -->
+
+  <g id="hero-identity">
+
+    <!-- Name -->
+    <text x="555" y="273"
+          class="hero-mono"
+          font-size="57"
+          font-weight="900"
+          letter-spacing="1"
+          fill="url(#hero-name)">Arjan Singh Jassal</text>
+
+    <!-- Accent underline -->
+    <rect x="555" y="305"
+          width="194"
+          height="9"
+          rx="4.5"
+          fill="url(#hero-accent)"/>
+
+    <!-- Degree -->
+    <text x="555" y="370"
+          class="hero-mono hero-cyan"
+          font-size="29"
+          font-weight="900"
+          letter-spacing="2.5">B.SC. ARTIFICIAL INTELLIGENCE</text>
+
+    <!-- Role -->
+    <text x="555" y="415"
+          class="hero-mono hero-muted"
+          font-size="21"
+          font-weight="700">Full-Stack Developer · Backend · AI Engineering</text>
+
+    <!-- Three professional values -->
+    <g id="hero-values">
+
+      <!-- Build products -->
+      <g transform="translate(588 487)">
+        <g fill="none"
+           stroke="#00d4ff"
+           stroke-width="3"
+           stroke-linecap="round"
+           stroke-linejoin="round">
+          <path d="M-17 -5L-26 3L-17 11"/>
+          <path d="M17 -5L26 3L17 11"/>
+          <path d="M9 -10L-5 16"/>
+        </g>
+
+        <text x="0" y="48"
+              text-anchor="middle"
+              class="hero-mono hero-muted"
+              font-size="16"
+              font-weight="700">BUILD</text>
+
+        <text x="0" y="70"
+              text-anchor="middle"
+              class="hero-mono hero-muted"
+              font-size="16"
+              font-weight="700">PRODUCTS</text>
+      </g>
+
+      <!-- Divider -->
+      <path d="M665 476V555"
+            stroke="#0789ff"
+            stroke-width="1.5"/>
+
+      <!-- Solve problems -->
+      <g transform="translate(747 487)"
+         fill="none"
+         stroke="#00d4ff"
+         stroke-width="2.4"
+         stroke-linecap="round"
+         stroke-linejoin="round">
+
+        <path d="M0 -14
+                 C-10 -14 -14 -6 -11 0
+                 C-14 9 -7 15 0 10Z"/>
+
+        <path d="M0 -14
+                 C10 -14 14 -6 11 0
+                 C14 9 7 15 0 10Z"/>
+
+        <path d="M0 -14V11"/>
+        <path d="M-8 -5H-2"/>
+        <path d="M2 0H8"/>
+        <path d="M-7 6H-2"/>
+      </g>
+
+      <text x="747" y="535"
+            text-anchor="middle"
+            class="hero-mono hero-muted"
+            font-size="16"
+            font-weight="700">SOLVE</text>
+
+      <text x="747" y="557"
+            text-anchor="middle"
+            class="hero-mono hero-muted"
+            font-size="16"
+            font-weight="700">PROBLEMS</text>
+
+      <!-- Divider -->
+      <path d="M826 476V555"
+            stroke="#0789ff"
+            stroke-width="1.5"/>
+
+      <!-- Create impact -->
+      <g transform="translate(903 487)"
+         fill="#00caff">
+
+        <path d="M-15 8
+                 L-8 0
+                 L-2 5
+                 L8 -9
+                 L14 -13
+                 L12 -3
+                 L2 12
+                 L-3 7
+                 L-10 15Z"/>
+
+        <circle cx="6" cy="-6" r="2.5" fill="#03264a"/>
+        <path d="M-12 13L-16 17L-7 15Z" fill="#00caff"/>
+      </g>
+
+      <text x="903" y="535"
+            text-anchor="middle"
+            class="hero-mono hero-muted"
+            font-size="16"
+            font-weight="700">CREATE</text>
+
+      <text x="903" y="557"
+            text-anchor="middle"
+            class="hero-mono hero-muted"
+            font-size="16"
+            font-weight="700">IMPACT</text>
+    </g>
+  </g>
+
+  <!-- =========================================
+       RIGHT: LOCATION CARD
+  ========================================== -->
+
+  <g id="hero-location">
+
+    <rect x="1265" y="226"
+          width="501"
+          height="121"
+          rx="17"
+          fill="#00aaff"
+          opacity=".13"
+          filter="url(#hero-small-glow)"/>
+
+    <rect x="1265" y="226"
+          width="501"
+          height="121"
+          rx="17"
+          fill="url(#hero-card)"
+          stroke="url(#hero-card-border)"
+          stroke-width="1.8"/>
+
+    <!-- Icon frame -->
+    <rect x="1297" y="250"
+          width="74"
+          height="74"
+          rx="14"
+          fill="#032d54"
+          stroke="#00d4ff"
+          stroke-width="2"/>
+
+    <!-- Location pin -->
+    <g transform="translate(1334 286)"
+       fill="none"
+       stroke="#00d4ff"
+       stroke-width="3.5"
+       stroke-linecap="round"
+       stroke-linejoin="round">
+
+      <path d="M0 -16
+               C-9 -16 -14 -9 -14 -1
+               C-14 10 0 21 0 21
+               C0 21 14 10 14 -1
+               C14 -9 9 -16 0 -16Z"/>
+
+      <circle cx="0" cy="-2" r="4.5"/>
+    </g>
+
+    <text x="1402" y="278"
+          class="hero-mono hero-white hero-label">LOCATION</text>
+
+    <text x="1402" y="309"
+          class="hero-mono hero-muted"
+          font-size="19">Deggendorf, Germany</text>
+  </g>
+
+  <!-- =========================================
+       RIGHT: AVAILABILITY CARD
+  ========================================== -->
+
+  <g id="hero-availability">
+
+    <rect x="1265" y="372"
+          width="501"
+          height="121"
+          rx="17"
+          fill="#eba055"
+          opacity=".14"
+          filter="url(#hero-small-glow)"/>
+
+    <rect x="1265" y="372"
+          width="501"
+          height="121"
+          rx="17"
+          fill="url(#hero-card)"
+          stroke="url(#hero-card-border)"
+          stroke-width="1.8"/>
+
+    <!-- Icon frame -->
+    <rect x="1297" y="397"
+          width="74"
+          height="74"
+          rx="14"
+          fill="#092e50"
+          stroke="#ffb45e"
+          stroke-width="2"/>
+
+    <!-- Briefcase -->
+    <g transform="translate(1334 434)"
+       fill="none"
+       stroke="#ffb45e"
+       stroke-width="3.5"
+       stroke-linecap="round"
+       stroke-linejoin="round">
+
+      <rect x="-16" y="-8"
+            width="32" height="23"
+            rx="3"/>
+
+      <path d="M-8 -8V-14
+               Q-8 -17 -4 -17
+               H4
+               Q8 -17 8 -14
+               V-8"/>
+
+      <path d="M-16 0H16"/>
+      <path d="M-3 0V4H3V0"/>
+    </g>
+
+    <text x="1402" y="425"
+          class="hero-mono hero-white hero-label">STATUS</text>
+
+    <text x="1402" y="458"
+          class="hero-mono hero-amber"
+          font-size="18">Available for part-time work</text>
+  </g>
+
+  <!-- =========================================
+       FOOTER
+  ========================================== -->
+
+  <g id="hero-footer">
+
+    <path d="M51 716H1816"
+          stroke="#0789ff"
+          stroke-width="1.5"
+          opacity=".85"/>
+
+    <text x="51" y="749"
+          class="hero-mono hero-footer">PORTFOLIO / ABOUT ME</text>
+
+    <text x="1765" y="749"
+          text-anchor="end"
+          class="hero-mono hero-footer">BACKEND · AI · FULL-STACK</text>
+
+    <!-- Decorative status dots -->
+    <g transform="translate(1807 743)">
+      <circle cx="-30" cy="0" r="3.5" fill="#00d4ff"/>
+      <circle cx="-12" cy="0" r="3.5" fill="#00d4ff" opacity=".8"/>
+      <circle cx="6" cy="0" r="3.5" fill="#00d4ff" opacity=".6"/>
+    </g>
+
+  </g>
+
+</svg>

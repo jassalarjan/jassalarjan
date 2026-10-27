@@ -1,0 +1,507 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="100%"
+     height="680"
+     viewBox="0 0 1400 680"
+     preserveAspectRatio="xMidYMid meet"
+     role="img"
+     aria-labelledby="experience-title experience-desc">
+
+  <title id="experience-title">Work Experience</title>
+  <desc id="experience-desc">
+    Professional timeline featuring five roles in SEO, digital marketing,
+    community leadership, web development, and cloud deployment.
+  </desc>
+
+  <defs>
+    <linearGradient id="exp-background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050a14"/>
+      <stop offset="55%" stop-color="#091b30"/>
+      <stop offset="100%" stop-color="#0e2841"/>
+    </linearGradient>
+
+    <linearGradient id="exp-accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#eba055"/>
+      <stop offset="50%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#0789ff"/>
+    </linearGradient>
+
+    <linearGradient id="exp-card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#122c47"/>
+      <stop offset="100%" stop-color="#0a192b"/>
+    </linearGradient>
+
+    <linearGradient id="exp-current" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#eba055" stop-opacity=".15"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity=".04"/>
+    </linearGradient>
+
+    <radialGradient id="exp-glow">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity=".12"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="exp-grid"
+             width="36"
+             height="36"
+             patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36"
+            fill="none"
+            stroke="#ffffff"
+            stroke-width="1"
+            stroke-opacity=".035"/>
+    </pattern>
+
+    <style>
+      .exp-mono {
+        font-family: "SFMono-Regular", Consolas,
+                     "Liberation Mono", monospace;
+      }
+
+      .exp-white { fill: #f5f8ff; }
+      .exp-muted { fill: #a9bbce; }
+      .exp-cyan { fill: #00d4ff; }
+      .exp-amber { fill: #eba055; }
+
+      .exp-card {
+        fill: url(#exp-card);
+        stroke: #234362;
+        stroke-width: 1.2;
+      }
+
+      .exp-role {
+        font-size: 17px;
+        font-weight: 800;
+        letter-spacing: .2px;
+      }
+
+      .exp-company {
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: .4px;
+      }
+
+      .exp-detail {
+        font-size: 11px;
+      }
+
+      .exp-label {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="680" fill="url(#exp-background)"/>
+  <rect width="1400" height="680" fill="url(#exp-grid)"/>
+
+  <ellipse cx="1200" cy="80"
+           rx="300" ry="220"
+           fill="url(#exp-glow)"/>
+
+  <ellipse cx="100" cy="620"
+           rx="260" ry="180"
+           fill="url(#exp-glow)"/>
+
+  <!-- Frame -->
+  <path d="M0 1H1400"
+        stroke="#00d4ff"
+        stroke-opacity=".35"/>
+
+  <path d="M0 679H1400"
+        stroke="#00d4ff"
+        stroke-opacity=".25"/>
+
+  <!-- Header -->
+  <g transform="translate(64 42)">
+    <rect width="68" height="4" rx="2"
+          fill="url(#exp-accent)"/>
+
+    <text x="0" y="42"
+          class="exp-mono exp-white"
+          font-size="32"
+          font-weight="900"
+          letter-spacing="1.2">
+      WORK EXPERIENCE
+    </text>
+
+    <text x="2" y="66"
+          class="exp-mono exp-muted"
+          font-size="11"
+          letter-spacing="2">
+      PROFESSIONAL JOURNEY / EXPERIENCE &amp; IMPACT
+    </text>
+  </g>
+
+  <!-- Experience count -->
+  <g transform="translate(1240 48)">
+    <rect width="96" height="62" rx="10"
+          fill="#102941"
+          stroke="#234362"/>
+
+    <text x="48" y="29"
+          text-anchor="middle"
+          class="exp-mono exp-cyan"
+          font-size="23"
+          font-weight="900">05</text>
+
+    <text x="48" y="46"
+          text-anchor="middle"
+          class="exp-mono exp-muted"
+          font-size="9"
+          letter-spacing="1.3">ROLES</text>
+  </g>
+
+  <!-- Timeline rail -->
+  <path d="M91 151V609"
+        fill="none"
+        stroke="#244b6d"
+        stroke-width="2"/>
+
+  <path d="M91 151V228"
+        fill="none"
+        stroke="url(#exp-accent)"
+        stroke-width="3"
+        stroke-linecap="round"/>
+
+  <!-- Timeline node 1 -->
+  <circle cx="91" cy="168" r="11"
+          fill="#0b2035"
+          stroke="#eba055"
+          stroke-width="2"/>
+
+  <circle cx="91" cy="168" r="4"
+          fill="#eba055"/>
+
+  <!-- Card 1: Current role -->
+  <g transform="translate(126 132)">
+    <rect width="1210" height="88" rx="12"
+          fill="url(#exp-current)"
+          stroke="#3b617b"
+          stroke-width="1.2"/>
+
+    <rect width="4" height="88" rx="2"
+          fill="url(#exp-accent)"/>
+
+    <!-- Current status -->
+    <g transform="translate(1060 16)">
+      <rect width="126" height="23" rx="11.5"
+            fill="#123c42"
+            stroke="#167f87"
+            stroke-opacity=".8"/>
+
+      <circle cx="13" cy="11.5" r="3"
+              fill="#5cd88a"/>
+
+      <text x="24" y="15"
+            class="exp-mono"
+            fill="#8de8c1"
+            font-size="9"
+            font-weight="700"
+            letter-spacing=".6">
+        CURRENT ROLE
+      </text>
+    </g>
+
+    <text x="24" y="29"
+          class="exp-mono exp-white exp-role">
+      SEO Executive Intern
+    </text>
+
+    <text x="24" y="50"
+          class="exp-mono exp-cyan exp-company">
+      Zing Enterprises
+      <tspan fill="#6e8da9"> / </tspan>
+      <tspan fill="#b8c9da">SEO &amp; Technical Team</tspan>
+    </text>
+
+    <text x="24" y="72"
+          class="exp-mono exp-muted exp-detail">
+      06/2026 – Present
+      <tspan fill="#476783">  ·  </tspan>
+      Rohini, New Delhi, India
+    </text>
+  </g>
+
+  <!-- Timeline node 2 -->
+  <circle cx="91" cy="266" r="9"
+          fill="#0b2035"
+          stroke="#00d4ff"
+          stroke-width="2"/>
+
+  <circle cx="91" cy="266" r="3"
+          fill="#00d4ff"/>
+
+  <!-- Card 2: Leadership -->
+  <g transform="translate(126 230)">
+    <rect width="1210" height="78" rx="11"
+          class="exp-card"/>
+
+    <rect x="0" y="0" width="3" height="78" rx="1.5"
+          fill="#00d4ff"/>
+
+    <!-- Leadership icon -->
+    <g transform="translate(25 22)"
+       fill="none"
+       stroke="#00d4ff"
+       stroke-width="1.5"
+       stroke-linecap="round">
+      <circle cx="12" cy="5" r="4"/>
+      <circle cx="3" cy="10" r="3"/>
+      <circle cx="21" cy="10" r="3"/>
+      <path d="M5 24V21C5 16 8 14 12 14S19 16 19 21V24"/>
+      <path d="M-3 24V21C-3 18 0 16 3 16"/>
+      <path d="M27 24V21C27 18 24 16 21 16"/>
+    </g>
+
+    <text x="76" y="27"
+          class="exp-mono exp-white exp-role">
+      Secretary
+    </text>
+
+    <text x="76" y="47"
+          class="exp-mono exp-cyan exp-company">
+      Code Catalyst College Community
+      <tspan fill="#6e8da9"> / </tspan>
+      <tspan fill="#b8c9da">Core Team (Admin)</tspan>
+    </text>
+
+    <text x="76" y="65"
+          class="exp-mono exp-muted exp-detail">
+      05/2025 – 07/2026
+      <tspan fill="#476783">  ·  </tspan>
+      Faridabad, India
+    </text>
+
+    <text x="1180" y="39"
+          text-anchor="end"
+          class="exp-mono"
+          fill="#7794b1"
+          font-size="10"
+          letter-spacing="1">
+      LEADERSHIP
+    </text>
+  </g>
+
+  <!-- Timeline node 3 -->
+  <circle cx="91" cy="354" r="9"
+          fill="#0b2035"
+          stroke="#00d4ff"
+          stroke-width="2"/>
+
+  <circle cx="91" cy="354" r="3"
+          fill="#00d4ff"/>
+
+  <!-- Card 3: Full-stack and cloud -->
+  <g transform="translate(126 318)">
+    <rect width="1210" height="78" rx="11"
+          class="exp-card"/>
+
+    <rect x="0" y="0" width="3" height="78" rx="1.5"
+          fill="#00d4ff"/>
+
+    <!-- Cloud / deployment icon -->
+    <g transform="translate(25 23)"
+       fill="none"
+       stroke="#00d4ff"
+       stroke-width="1.7"
+       stroke-linecap="round"
+       stroke-linejoin="round">
+      <path d="M4 23H23C28 23 29 17 25 14C24 8 17 6 13 11C8 9 3 13 5 18C1 18 1 23 4 23Z"/>
+      <path d="M14 15V27"/>
+      <path d="M10 23L14 27L18 23"/>
+    </g>
+
+    <text x="76" y="27"
+          class="exp-mono exp-white exp-role"
+          font-size="15">
+      Full-Stack Web Dev &amp; Cloud Deployment Intern
+    </text>
+
+    <text x="76" y="47"
+          class="exp-mono exp-cyan exp-company">
+      Softchip Instrumentation
+      <tspan fill="#6e8da9"> / </tspan>
+      <tspan fill="#b8c9da">Technical Department</tspan>
+    </text>
+
+    <text x="76" y="65"
+          class="exp-mono exp-muted exp-detail">
+      07/2025 – 09/2025
+      <tspan fill="#476783">  ·  </tspan>
+      New Delhi, India
+    </text>
+
+    <text x="1180" y="39"
+          text-anchor="end"
+          class="exp-mono"
+          fill="#7794b1"
+          font-size="10"
+          letter-spacing="1">
+      DEVELOPMENT
+    </text>
+  </g>
+
+  <!-- Timeline node 4 -->
+  <circle cx="91" cy="442" r="9"
+          fill="#0b2035"
+          stroke="#eba055"
+          stroke-width="2"/>
+
+  <circle cx="91" cy="442" r="3"
+          fill="#eba055"/>
+
+  <!-- Card 4: SEO and marketing -->
+  <g transform="translate(126 406)">
+    <rect width="1210" height="78" rx="11"
+          class="exp-card"/>
+
+    <rect x="0" y="0" width="3" height="78" rx="1.5"
+          fill="#eba055"/>
+
+    <!-- Analytics icon -->
+    <g transform="translate(26 23)"
+       fill="none"
+       stroke="#eba055"
+       stroke-width="1.8"
+       stroke-linecap="round"
+       stroke-linejoin="round">
+      <path d="M1 27V2"/>
+      <path d="M1 27H27"/>
+      <rect x="5" y="17" width="5" height="10" rx="1"/>
+      <rect x="13" y="11" width="5" height="16" rx="1"/>
+      <rect x="21" y="4" width="5" height="23" rx="1"/>
+    </g>
+
+    <text x="76" y="27"
+          class="exp-mono exp-white exp-role">
+      SEO &amp; Digital Marketing Intern
+    </text>
+
+    <text x="76" y="47"
+          class="exp-mono exp-cyan exp-company">
+      Zing Enterprises
+      <tspan fill="#6e8da9"> / </tspan>
+      <tspan fill="#b8c9da">Marketing</tspan>
+    </text>
+
+    <text x="76" y="65"
+          class="exp-mono exp-muted exp-detail">
+      01/2025 – 02/2025
+      <tspan fill="#476783">  ·  </tspan>
+      New Delhi, India
+    </text>
+
+    <text x="1180" y="39"
+          text-anchor="end"
+          class="exp-mono"
+          fill="#7794b1"
+          font-size="10"
+          letter-spacing="1">
+      DIGITAL GROWTH
+    </text>
+  </g>
+
+  <!-- Timeline node 5 -->
+  <circle cx="91" cy="530" r="9"
+          fill="#0b2035"
+          stroke="#00d4ff"
+          stroke-width="2"/>
+
+  <circle cx="91" cy="530" r="3"
+          fill="#00d4ff"/>
+
+  <!-- Card 5: Web development -->
+  <g transform="translate(126 494)">
+    <rect width="1210" height="78" rx="11"
+          class="exp-card"/>
+
+    <rect x="0" y="0" width="3" height="78" rx="1.5"
+          fill="#00d4ff"/>
+
+    <!-- Code icon -->
+    <g transform="translate(27 25)"
+       fill="none"
+       stroke="#00d4ff"
+       stroke-width="1.8"
+       stroke-linecap="round"
+       stroke-linejoin="round">
+      <path d="M8 1L0 9L8 17"/>
+      <path d="M19 1L27 9L19 17"/>
+      <path d="M17 0L10 19"/>
+    </g>
+
+    <text x="76" y="27"
+          class="exp-mono exp-white exp-role">
+      Web Development Intern
+    </text>
+
+    <text x="76" y="47"
+          class="exp-mono exp-cyan exp-company">
+      Zap Infotech
+      <tspan fill="#6e8da9"> / </tspan>
+      <tspan fill="#b8c9da">Technical Department</tspan>
+    </text>
+
+    <text x="76" y="65"
+          class="exp-mono exp-muted exp-detail">
+      04/2024 – 08/2024
+      <tspan fill="#476783">  ·  </tspan>
+      New Delhi, India
+      <tspan fill="#476783">  ·  </tspan>
+      Git &amp; collaborative deployments
+    </text>
+
+    <text x="1180" y="39"
+          text-anchor="end"
+          class="exp-mono"
+          fill="#7794b1"
+          font-size="10"
+          letter-spacing="1">
+      WEB DEVELOPMENT
+    </text>
+  </g>
+
+  <!-- Timeline endpoint -->
+  <path d="M91 539V600"
+        stroke="#244b6d"
+        stroke-width="2"
+        stroke-linecap="round"/>
+
+  <circle cx="91" cy="608" r="4"
+          fill="#eba055"/>
+
+  <!-- Footer -->
+  <path d="M126 620H1336"
+        stroke="#234362"
+        stroke-width="1"/>
+
+  <text x="126" y="647"
+        class="exp-mono"
+        fill="#7894af"
+        font-size="10"
+        letter-spacing="2">
+    EXPERIENCE / GROWTH / CONTINUOUS LEARNING
+  </text>
+
+  <text x="1336" y="647"
+        text-anchor="end"
+        class="exp-mono"
+        fill="#7894af"
+        font-size="10"
+        letter-spacing="2">
+    2024 — 2026
+  </text>
+
+  <!-- Inward-facing corner accents -->
+  <g fill="none"
+     stroke="#eba055"
+     stroke-width="2"
+     stroke-linecap="round"
+     opacity=".8">
+    <path d="M28 28H58V58"/>
+    <path d="M1372 652H1342V622"/>
+  </g>
+
+</svg>

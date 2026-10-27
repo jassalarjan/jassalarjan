@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="700" viewBox="0 0 1400 700" role="img" aria-labelledby="title desc">
+  <title id="title">Featured Projects — Arjan Singh Jassal</title>
+  <desc id="desc">A futuristic portfolio projects panel featuring AetherTrack, TruthExt, Aetheron, and project links.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#041126"/><stop offset=".55" stop-color="#06264a"/><stop offset="1" stop-color="#031a35"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffb13b"/><stop offset=".5" stop-color="#16cbed"/><stop offset="1" stop-color="#0789ff"/>
+    </linearGradient>
+    <linearGradient id="cardFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a3158" stop-opacity=".97"/><stop offset="1" stop-color="#071f3e" stop-opacity=".97"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#1b8ac8" stroke-opacity=".10"/>
+    </pattern>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#087dc7" stop-opacity=".22"/><stop offset="1" stop-color="#087dc7" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glowSoft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
+      .white{fill:#f5f8ff}.muted{fill:#a9bfdc}.cyan{fill:#18d2f3}.amber{fill:#ffb13b}
+      .card{fill:url(#cardFill);stroke:#087fc3;stroke-width:1.5}
+      .heading{font-size:27px;font-weight:900;letter-spacing:1px}
+      .meta{font-size:13px;fill:#18d2f3;letter-spacing:.25px}
+      .desc{font-size:14px;fill:#d9e6f6}
+      .tech{font-size:12px;fill:#91abc9}
+      .smallLabel{font-size:12px;font-weight:800;letter-spacing:1.3px}
+    </style>
+  </defs>
+  <rect width="1400" height="700" fill="url(#bg)"/>
+  <rect width="1400" height="700" fill="url(#grid)"/>
+  <ellipse cx="1300" cy="80" rx="260" ry="220" fill="url(#glow)"/>
+  <ellipse cx="60" cy="700" rx="300" ry="220" fill="url(#glow)"/>
+  <path d="M0 12H1400" stroke="#0789d5" stroke-opacity=".7" stroke-width="2"/>
+  <path d="M1120 700C1210 604 1295 565 1400 540" fill="none" stroke="#0789ff" stroke-opacity=".7" stroke-width="2"/>
+  <g fill="#10c9f1">
+    <circle cx="1300" cy="628" r="2.2"/><circle cx="1322" cy="628" r="2.2"/><circle cx="1344" cy="628" r="2.2"/><circle cx="1366" cy="628" r="2.2"/>
+    <circle cx="1300" cy="650" r="2.2"/><circle cx="1322" cy="650" r="2.2"/><circle cx="1344" cy="650" r="2.2"/><circle cx="1366" cy="650" r="2.2"/>
+  </g>
+
+  <!-- Header -->
+  <rect x="60" y="54" width="180" height="5" rx="2.5" fill="url(#accent)"/>
+  <text x="60" y="101" class="mono white" font-size="36" font-weight="900" letter-spacing="1.5">FEATURED PROJECTS</text>
+  <text x="62" y="130" class="mono muted" font-size="14" letter-spacing="1.2">SELECTED BUILDS / FULL-STACK · AI · SAAS</text>
+  <g transform="translate(1230 68)">
+    <rect width="108" height="48" rx="12" fill="#08284d" stroke="#087fc3" stroke-width="1.5"/>
+    <circle cx="19" cy="24" r="4" fill="#ffb13b"/><circle cx="35" cy="24" r="4" fill="#18d2f3"/><circle cx="51" cy="24" r="4" fill="#7c7cff"/>
+    <text x="67" y="29" class="mono muted" font-size="11" text-anchor="middle">03 BUILDS</text>
+  </g>
+
+  <!-- AetherTrack -->
+  <g transform="translate(60 160)">
+    <rect width="620" height="238" rx="18" class="card"/>
+    <rect width="6" height="238" rx="3" fill="#ffb13b"/>
+    <circle cx="574" cy="35" r="20" fill="#123e61" stroke="#ffb13b" stroke-opacity=".65"/>
+    <path d="M564 35H584M574 25V45" stroke="#ffb13b" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="30" y="42" class="mono white heading">AetherTrack</text>
+    <text x="30" y="69" class="mono meta">01/2026 – 07/2026  ·  INDEPENDENT  ·  SAAS</text>
+    <path d="M30 85H580" stroke="#1c4d75" stroke-width="1"/>
+    <text x="30" y="112" class="mono desc">Consolidating project delivery, task tracking, HR,</text>
+    <text x="30" y="134" class="mono desc">attendance and internal communications — replacing</text>
+    <text x="30" y="156" class="mono desc">five separate tools with one connected platform.</text>
+    <text x="30" y="191" class="mono tech">NODE.JS · EXPRESS · MONGODB · REACT 18</text>
+    <text x="30" y="211" class="mono tech">VITE · TAILWIND · SOCKET.IO · CAPACITOR</text>
+    <rect x="475" y="185" width="105" height="30" rx="8" fill="#0c3b5e" stroke="#24618a"/>
+    <text x="527" y="205" class="mono cyan" font-size="11" font-weight="800" text-anchor="middle">FULL-STACK</text>
+  </g>
+
+  <!-- TruthExt -->
+  <g transform="translate(710 160)">
+    <rect width="630" height="238" rx="18" class="card"/>
+    <rect width="6" height="238" rx="3" fill="#18d2f3"/>
+    <circle cx="584" cy="35" r="20" fill="#123e61" stroke="#18d2f3" stroke-opacity=".65"/>
+    <path d="M574 28H594V42H574Z" fill="none" stroke="#18d2f3" stroke-width="2"/><path d="M578 33H590M578 37H587" stroke="#18d2f3" stroke-width="1.5"/>
+    <text x="30" y="42" class="mono white heading">TruthExt</text>
+    <text x="30" y="69" class="mono meta">12/2025 – 01/2026  ·  INDEPENDENT  ·  AI EXTENSION</text>
+    <path d="M30 85H590" stroke="#1c4d75" stroke-width="1"/>
+    <text x="30" y="112" class="mono desc">Privacy-first browser extension that flags potential</text>
+    <text x="30" y="134" class="mono desc">misinformation with transformer-based credibility</text>
+    <text x="30" y="156" class="mono desc">scoring, semantic similarity search and image analysis.</text>
+    <text x="30" y="191" class="mono tech">REACT 18 · TYPESCRIPT · NODE.JS · EXPRESS</text>
+    <text x="30" y="211" class="mono tech">HUGGING FACE · RADIX UI · ZUSTAND</text>
+    <rect x="490" y="185" width="100" height="30" rx="8" fill="#0c3b5e" stroke="#24618a"/>
+    <text x="540" y="205" class="mono cyan" font-size="11" font-weight="800" text-anchor="middle">AI / NLP</text>
+  </g>
+
+  <!-- Links panel -->
+  <g transform="translate(60 422)">
+    <rect width="620" height="218" rx="18" class="card"/>
+    <rect width="6" height="218" rx="3" fill="#ffb13b"/>
+    <text x="30" y="42" class="mono white" font-size="22" font-weight="900" letter-spacing="1">PROJECT LINKS</text>
+    <text x="30" y="78" class="mono amber smallLabel">LIVE DEMO</text>
+    <text x="30" y="101" class="mono" font-size="15" fill="#d9e8fa">aethertrack.arjansinghjassal.xyz</text>
+    <path d="M30 117H580" stroke="#1c4d75"/>
+    <text x="30" y="146" class="mono amber smallLabel">SOURCE REPOSITORY</text>
+    <text x="30" y="169" class="mono" font-size="14" fill="#d9e8fa">github.com/jassalarjan/AetherTrackSAAS</text>
+    <text x="30" y="198" class="mono" font-size="11" fill="#718eaf">OPEN THE LINKS IN YOUR BROWSER</text>
+    <g transform="translate(532 28)" fill="none" stroke="#18d2f3" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 16V4Q0 0 4 0H28Q32 0 32 4V28Q32 32 28 32H4Q0 32 0 28V22"/>
+      <path d="M13 19L30 2M18 2H30V14"/>
+    </g>
+  </g>
+
+  <!-- Aetheron -->
+  <g transform="translate(710 422)">
+    <rect width="630" height="218" rx="18" class="card"/>
+    <rect width="6" height="218" rx="3" fill="#9b7bff"/>
+    <circle cx="584" cy="35" r="20" fill="#123e61" stroke="#9b7bff" stroke-opacity=".75"/>
+    <path d="M573 27H595V42H573Z" fill="none" stroke="#b6a1ff" stroke-width="2"/>
+    <path d="M578 32L582 36L590 29" fill="none" stroke="#b6a1ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="30" y="42" class="mono white heading">Aetheron</text>
+    <text x="30" y="69" class="mono meta">2025  ·  INDEPENDENT  ·  AI CHATBOT &amp; VOICE</text>
+    <path d="M30 85H590" stroke="#1c4d75" stroke-width="1"/>
+    <text x="30" y="112" class="mono desc">Full-stack assistant with persistent memory, multi-turn</text>
+    <text x="30" y="134" class="mono desc">intent handling, image generation and voice input/output.</text>
+    <text x="30" y="169" class="mono tech">REACT · NODE.JS · MONGODB · HUGGING FACE · NLP</text>
+    <rect x="30" y="184" width="105" height="23" rx="7" fill="#29265a" stroke="#7561d5"/>
+    <text x="82" y="200" class="mono" font-size="10" font-weight="800" fill="#c6baff" text-anchor="middle">CONVERSATIONAL AI</text>
+  </g>
+
+  <text x="60" y="675" class="mono" fill="#4d789f" font-size="12" letter-spacing="2">PORTFOLIO / FEATURED WORK</text>
+  <text x="1340" y="675" text-anchor="end" class="mono" fill="#4d789f" font-size="12" letter-spacing="2">BUILD · SHIP · ITERATE</text>
+</svg>
